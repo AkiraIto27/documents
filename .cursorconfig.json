@@ -1,0 +1,34 @@
+{
+    "documents": [
+        "docs/",
+        "spec/",
+        "domain/",
+        "README.md",
+        "CONTRIBUTING.md",
+        "CODE_OF_CONDUCT.md"
+    ],
+    "ignore": [
+        "node_modules/",
+        "build/",
+        ".git/",
+        "*.lock",
+        "*.png",
+        "*.jpg",
+        "*.mp4",
+        "tmp/",
+        "vendor/"
+    ],
+    "system_message": "あなたはこのプロジェクト専用の技術ドキュメント支援AIです。次の開発ルールとドメイン知識を理解し、出力内容はMarkdown形式で整然とまとめてください。専門用語は必ず glossary を参照し、曖昧な表現は避け、簡潔で正確な情報提供を行ってください。口語的・主観的な表現は禁止です。常に丁寧語で回答してください。",
+    "settings": {
+        "autoDocstring": true,
+        "autoExplainCode": true,
+        "language": "ja"
+    },
+    "glossary": {
+        "DDD": "ドメイン駆動設計の略。業務知識をソフトウェアに反映する設計思想。",
+        "hogeAPI": "外部認証サービスへのAPIエンドポイント。",
+        "FugaService": "このプロジェクトの主要ドメインロジック層。",
+        "バリューオブジェクト": "不変かつ同一性を持たないオブジェクト。値そのものが等価性を決定。",
+        "エンティティ": "一意のIDを持ちライフサイクルがあるオブジェクト。"
+    }
+}
